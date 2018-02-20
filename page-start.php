@@ -60,7 +60,10 @@ get_header() ?>
 <div class="parallax-3"></div>
 <div class="start-3">
   <p class="if">It’s your time. <br />Are you ready to achieve unstoppable success and get the results you want? <br />What are you waiting for? <br />When will be the perfect time?<br /> NOW! <br />TODAY!<br /> You are worth it. <br />Let your light shine.<br />      I believe in you!!!</p>
-  <p class="testimonials" id="imonials"><a href="http://localhost/KariCoach/testimonials" class="test-start">Hear what my clients have to say.</a></p>
+  <button class="testimonials btn" id="imonials"><a href="http://localhost/KariCoach/testimonials" class="test-start">Hear what my clients have to say.</a></button>
+  <div class="testimonials-space">
+
+  </div>
 </div>
 <div class="parallax-3"></div>
 <div class="parallax">
@@ -76,7 +79,7 @@ get_header() ?>
     <p class="if-3">We are on this journey together. Together we determine what’s important to you and why. Figure out what is getting in your way and how to eliminate it. We’ll figure out the best way for you to get started and get shit done. I will challenge you
       to look at yourself and your life differently so you will begin to find alignment with your dream life. You will become the fearless unstoppable person you’ve always wanted to be.
     </p>
-    <button class="if-3-button btn btn-default" type="button" name="button" ><a href="http://localhost/KariCoach/work">Want to learn more about the process?</a></button>
+    <button class="if-3-button btn" type="button" name="button" ><a href="http://localhost/KariCoach/work">Want to learn more about the process?</a></button>
   </div>
 
 </div>
@@ -97,8 +100,8 @@ get_header() ?>
     <h1 class="if-3a">Fearless and Honest</h1>
     <p class="if-3b">I am a no bones around kind of person. I will say what needs to be said from a loving safe place. I truly listen to you and you will be heard with an open heart and I care for you unconditionally. I am fiercely committed to you. I will challenge
       you to look at yourself and your life differently. My coaching comes from a place of honesty and depth.</p>
-      <button class="if-3d btn btn-default" type="button" name="button" href="about.html"><a href="http://localhost/KariCoach/about" />Learn more about Kari</a></button>
-    <blockquote class="if-3c"><em>"The first and most important person you must believe in is yourself." <br /></br/> -Toni Sorenson</em></blockquote>
+      <button class="if-3d btn" type="button" name="button" href="about.html"><a href="http://localhost/KariCoach/about" />Learn more about Kari</a></button>
+    <blockquote class="if-3c">"The first and most important person you must believe in is yourself." <em> -Toni Sorenson</em></blockquote>
   </div>
   <div class="column-2a">
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/KariOceanSig.png" alt="" class="somebody2">

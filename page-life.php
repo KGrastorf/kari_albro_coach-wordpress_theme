@@ -16,7 +16,7 @@ get_header() ?>
 
 <div class="coach-grid-4">
   <div class="coaches-space-top"></div>
-  <h1 class="coach-header">Are you getting in your way</h1>
+  <h1 class="coach-header">Are you getting in your way?</h1>
   <div class="coaches-space-middle"></div>
   <p class="first-p">
     What’s preventing you from moving forward, achieving the dreams you desire? Living the life you want, the life you are meant to live?<br/>
@@ -28,33 +28,38 @@ get_header() ?>
     </br/>
   </p>
   <div class="drown">
-    <img class="drown-pic" src="<?php bloginfo('stylesheet_directory'); ?>/images/drown.png" alt="">
+    <img class="drown-pic" src="<?php bloginfo('stylesheet_directory'); ?>/images/hand.png" alt="">
   </div>
+  <div class="second-p">
 
-  <p class="second-p"> <strong>The fall in love with YOU 90 day program:</strong><br/>
-    </br/> We are going to figure out what’s important……<br/>
-    </br/> Together we will build a strong understanding of who you are, what you stand for, what’s important to you and why. We figure out what is getting in your way and how to eliminate it.<br/>
-    </br/> Challenge and change the way you think…..<br/>
-    </br/> You’re believing something that isn’t true and it’s getting in the way. We will identify what your limiting beliefs are and ultimately change what you think is possible.<br/>
-    </br/> Find the best way for you to start putting things into motion……<br/>
-  </br/> There are a million ways to do something, so do it in the way that resonates with you. We’ll figure you what’s the best way for you to get started.<br/>
-    </br/>You will create your own tools to live your best life when our work is done.
-  </p>
-  <div class="hand">
-    <img class="hand-pic" src="<?php bloginfo('stylesheet_directory'); ?>/images/hand.png" alt="">
+<img class="title-icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Kari Circles Logo.png" alt="">
+  <p class="program-title"> <strong>The fall in love with YOU 90 day program:</strong><br/></p>
+  <ul class="points">
+    <li>Uncover what's been stopping you, slowing you down or keeping you from fully loving everypart of yourself.</li><br/>
+    <li>We are going to figure out what's important...Develop a powerful vision of how transforming your relationship to self will improve all other relationships in your life. Together we will build a strong understanding of who you are, what you stand for, what's important to you and why.</li><br/>
+    <!-- <li>We are going to figure out what’s important……</li><br/>
+    <li> You’re believing something that isn’t true and it’s getting in the way. We will identify what your limiting beliefs are and ultimately change what you think is possible.</li><br/>
+    <li> Find the best way for you to start putting things into motion……</li><br/> -->
+    <li>Discover what is getting in your way and how to eliminate it. There are a million ways to do something, so do it in the way that resonates with you. We’ll figure out what’s the best way for you to get started.</li><br/>
+    <li>Get Crystal Clear on a step-by-step plan to fall deeply in love with You and to live your best life when out work is done.</li><br/>
+    <!-- <li>There are a million ways to do something, so do it in the way that resonates with you.</li><br/> -->
+  </ul>
   </div>
-  <p class="third-p"> <strong>Build congruency:</strong><br/>
-  </br/>You are going to start doing what you say you’re going to do and start honoring what you say is important.<br/>
-  </br/>You are going to get clarity (get a crystal clear vision for you dreams).  Hope, renewed energy, become empowered (master of your mindset). Tap deeper into your intuition  (inner-wise self) to guide you.  Believe in yourself.<br/>
-  </br/> I believe in you!<br/>
-    </br/> You don’t need coaching. You want MY coaching because you want to create things more powerfully, thoughtfully, efficiently and quickly.</p>
+  <section class="third-p">
+    <p class="program-title">Build congruency:</p><br/>
+<p class="congruency">
+  You are going to start doing what you say you’re going to do and start honoring what you say is important.<br/>
+    </br/>You are going to get clarity (get a crystal clear vision for you dreams).  Hope, renewed energy, become empowered (master of your mindset). Tap deeper into your intuition  (inner-wise self) to guide you.  Believe in yourself.<br/>
+    </br/> I believe in you!<br/>
+      </br/> You don’t need coaching. You want MY coaching because you want to create things more powerfully, thoughtfully, efficiently and quickly.</p>
+    </section>
   <div class="coaches-space-bottom"></div>
 </div>
 <div class="well-button">
   <div class="well-space-top"></div>
   <!-- <h1 class="well-cta-text">Want to find out more?</h1> -->
   <div class="well-space-middle"></div>
-  <button class="well-cta-coach btn btn-default" href="http://localhost/KariCoach/work"><a  href="http://localhost/KariCoach/work">Start the conversation.</a></button>
+  <button class="well-cta-coach btn " href="http://localhost/KariCoach/work"><a  href="http://localhost/KariCoach/work">Start the conversation.</a></button>
   <div class="well-space-bottom"></div>
 </div>
 

@@ -29,10 +29,10 @@ get_header();
     <h1 class="link-5"><a href="<?php echo $link_5_url; ?>" class="home-links bckd-img4" id="bckd-img4"><?php echo $link_5_title; ?></a></h1>
   </div>
 </div>
-
+<!-- 
 <div class="home-cta">
 <button type="button" name="button" class="front-cta">Subscribe</button>
-</div>
+</div> -->
 
 <?php
 get_footer(); ?>

@@ -11,7 +11,7 @@ get_header() ?>
     <h1 class="page-title-test title">Success Stories</h1>
   </div>
   <div class="vine">
-    <img src=" <?php bloginfo('stylesheet_directory'); ?>/images/VineLong6.svg" alt="">
+    <!-- <img src=" <?php bloginfo('stylesheet_directory'); ?>/images/VineLong6.svg" alt=""> -->
   </div>
   <div class="">
     <div class="grid-2">
@@ -28,7 +28,7 @@ get_header() ?>
   </div>
 
   <div class="vine">
-    <img src=" <?php bloginfo('stylesheet_directory'); ?>/images/VineLong6.svg" alt="">
+    <!-- <img src=" <?php bloginfo('stylesheet_directory'); ?>/images/VineLong6.svg" alt=""> -->
   </div>
 
   <div class="">
@@ -49,7 +49,7 @@ get_header() ?>
     </div>
   </div>
   <div class="vine">
-    <img src=" <?php bloginfo('stylesheet_directory'); ?>/images/VineLong6.svg" alt="">
+    <!-- <img src=" <?php bloginfo('stylesheet_directory'); ?>/images/VineLong6.svg" alt=""> -->
   </div>
   <div class="">
     <div class="grid-4">
@@ -67,7 +67,7 @@ get_header() ?>
     </div>
   </div>
   <div class="vine">
-    <img src=" <?php bloginfo('stylesheet_directory'); ?>/images/VineLong6.svg" alt="">
+    <!-- <img src=" <?php bloginfo('stylesheet_directory'); ?>/images/VineLong6.svg" alt=""> -->
   </div>
 
   <div class="">

@@ -18,6 +18,7 @@ get_header() ?>
 </div>
 <div class="parallax-3"></div>
 
+<!--
 <form class="questionaire">
   <div class="form-group a">
     <label class="form-control-label" for="formGroupExampleInput">1. What success would you see personally and professionally from our working together? What does that feel like? Look like? What are you doing? (Get specific.) Would you like to look back in 6 months and say to yourself "I did it! Working with Kari was the turning point that changed everything!". </label>
@@ -58,9 +59,21 @@ get_header() ?>
     <button class="submit btn btn-default" type="button" name="button"><a href="http://localhost/KariCoach/thanks">Submit</a></button>
   </div>
   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/sparklerocks.png" alt="" class="rocks">
-</form>
+</form> -->
+<div class="google-form">
 
 
+<img src="<?php bloginfo('stylesheet_directory'); ?>/images/sparklerocks.png" alt="" class="rocks">
+
+
+<!-- <iframe class="g-form" src="https://docs.google.com/forms/d/e/1FAIpQLScRCdqhVCuJFFOfdQhT0F8GO5t-cAKWryiJgfRA-7gQn9RUvA/viewform?embedded=true" width="760" height="2200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRCdqhVCuJFFOfdQhT0F8GO5t-cAKWryiJgfRA-7gQn9RUvA/viewform?embedded=true" width="800" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRCdqhVCuJFFOfdQhT0F8GO5t-cAKWryiJgfRA-7gQn9RUvA/viewform?embedded=true" width="800" height="1300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRCdqhVCuJFFOfdQhT0F8GO5t-cAKWryiJgfRA-7gQn9RUvA/viewform?embedded=true" width="800" height="1750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc9oL9DulPj1pEh92hGR7wjb9PLXq7gX6osT2PNldMTmgQdtQ/viewform?embedded=true" width="800" height="1900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe> -->
+
+</div>
 <div class="parallax-3"></div>
 
 <?php get_footer() ?>

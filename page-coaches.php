@@ -15,40 +15,76 @@ get_header() ?>
 
 <div class="coach-grid-4">
   <div class="coaches-space-top"></div>
-  <h1 class="coach-header">Are you getting in your way</h1>
+  <h1 class="coach-header">Are you getting in your way?</h1>
   <div class="coaches-space-middle"></div>
   <p class="first-p">
     What’s preventing you from moving forward, achieving the dreams you desire? Living the life you want, the life you are meant to live?<br/>
-  </br/> You feel in your bones, your heart you are meant to be of service to others but wtf something, life, shit I can’t do this, no one will pay me for my services, fear of success/failure/not good enough/rejection, fear of being seen. These excuses
-    are holding me back..<br/>
+  </br/>You feel in your bones, your heart you are meant to be of service to others but wtf something, life, shit I can’t do this, no one will pay me for my services, fear of success/failure/not good enough/rejection, fear of being seen. These excuses are holding me back...<br/>
     </br/> You’ve learned all these amazing tools but still get stuck.<br/>
-    </br/> Let me tell you right here right now you are meant for this. You are fricken amazing. You are on the right journey. The perfect journey for you! Everything you have experienced in your life has prepared you for this moment, this day- everything
-    you do and experience today now is preparing you for tomorrow your future.<br/>
-    </br/> I am fiercely committed to you!<br/>
+    </br/>Let me tell you right here right now you are meant for this. You are fricken amazing. You are on the right journey. The perfect journey for you! Everything you have experienced in your life has prepared you for this moment, this day- everything you do and experience today is preparing you for tomorrow your future.<br/>
+    </br/>I am fiercely committed to you!<br/>
     </br/>
   </p>
   <div class="drown">
     <img class="drown-pic" src="<?php bloginfo('stylesheet_directory'); ?>/images/lantern.png" alt="">
   </div>
-  <p class="second-p">In this 6 mth. Program:<br/>
-    </br/> We are going to figure out what’s important…… <br/>
-    </br/> Together we will build a strong understanding of who you are, what you stand for, what’s important to you and why. We figure out what is getting in your way and how to eliminate it.<br/>
-    </br/> Challenge and change the way you think…..<br/>
-    </br/> You’re believing something that isn’t true and it’s getting in the way. We will identify what your limiting beliefs are and ultimately change what you think is possible.<br/>
-    </br/> Find the best way for you to start putting things into motion……<br/>
-    </br/> There are a million ways to do something, so do it in the way that resonates with you. We’ll figure you what’s the best way for you to get started and get shit done!<br/>
-  </br/> You will create your own tools to live your best life when our work is done.<br/>
-    </br/>
-  </p>
-  <div class="hand">
+  <div class="second-p2">
+    <p class="program-title">Get out of your way...Create the career you love 6 month program.</p>
+
+<br/>
+<!-- <img class="title-icon2" src="<?php bloginfo('stylesheet_directory'); ?>/images/Kari Circles Logo 2.png" alt=""> -->
+<ul class="points">
+  <br/>
+  <li>Uncover what's been stopping you, slowing you down or keeping you from being the unstoppable and fearless Coach of your dreams. </li>
+  <br/>
+
+  <li>Develop a powerful vision for how you would like to use your gifts to be in service to your clients and how that can impact the quality of your life and others.     </li>
+  <br/>
+  <li>Challenge and change the way you think…..You’re believing something that isn’t true and it’s getting in the way. We will identify what your limiting beliefs are and ultimately change what you think is possible. Find the best way for you to start putting things into motion……There are a million ways to do something, so do it in the way that resonates with you. We’ll figure out what’s the best way for you to get started and get shit done! </li>
+  <br/>
+  <li>Get Crystal Clear on a step-by-step plan to begin taking action on cultivating the work and life of your dreams.</li>
+
+</ul>
+<p class="program-curriculum">What's Included</p>
+<section class="program">
+
+
+<!-- <br /> -->
+<ul>
+  <br/>
+  <li>12- 1 hr. Sessions We will meet bi-weekly</li><br />
+  <li>1- 1 hr. Session clearing what’s not serving you with the use of essential oils
+</li><br />
+  <li>1- 2hr. Session on learning to create clients verses finding clients
+</li><br />
+<li>I will give additional support  through instant messenger
+There will be practices and meditations you will be doing as well as reading.
+</li><br />
+<li> 1 year of unlimited  One-on-One Business Coaching "Creating magic with your business" coaching toward one goal for one full year. During each session, we will discuss your progress and determine what you need to do which includes homework with each session.
+</li><br />
+
+</ul>
+<p>Your investment is $3500.00 with 6 mth payments of $583.00&nbsp;ea.  Receive a  $500.00 discount with payment&nbsp;in&nbsp;full&nbsp;of&nbsp;$3000.00
+</p>
+</section>
+
+<!-- <div class="hand">
     <img class="hand-pic" src="<?php bloginfo('stylesheet_directory'); ?>/images/bee.png" alt="">
-  </div>
-  <p class="third-p">Build congruency: <br/>
-  </br/> You are going to start doing what you say you’re going to do and start honoring what you say is important.<br/>
-  </br/> You don’t need coaching. You want MY coaching because you want to create things more powerfully, thoughtfully, efficiently and quickly. <br/>
-</br/>What you are going to get is clarity (get a crystal clear vision for you dreams). Hope, renewed energy, become empowered (master of your mindset). Tap deeper into your intuition (inner -wise self) to guide you. <br/>
-    </br/> Believe in yourself.<br/>
-    </br/> I believe in you!</p>
+  </div> -->
+</div>
+  <section class="third-p">
+
+
+
+
+
+    <p class="program-title">Build congruency:</p><br/>
+<p class="congruency">
+  You are going to start doing what you say you’re going to do and start honoring what you say is important.<br/>
+    </br/>You are going to get clarity (get a crystal clear vision for you dreams).  Hope, renewed energy, become empowered (master of your mindset). Tap deeper into your intuition  (inner-wise self) to guide you.  Believe in yourself.<br/>
+    </br/> I believe in you!<br/>
+      </br/> You don’t need coaching. You want MY coaching because you want to create things more powerfully, thoughtfully, efficiently and quickly.</p>
+    </section>
   <div class="coaches-space-bottom"></div>
 </div>
 
@@ -57,7 +93,7 @@ get_header() ?>
   <div class="well-space-top"></div>
   <!-- <h1 class="well-cta-text">Want to find out more?</h1> -->
   <div class="well-space-middle"></div>
-  <button class="well-cta-coach btn btn-default"><a  href="http://localhost/KariCoach/work">Start the conversation.</a></button>
+  <button class="well-cta-coach btn"><a  href="http://localhost/KariCoach/work">Start the conversation.</a></button>
   <div class="well-space-bottom"></div>
 </div>
 

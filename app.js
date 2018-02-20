@@ -14,11 +14,28 @@
     ease: Power0.easeOut
   });
 
+  $('#ss-submit').click(function() {
+    window.location.assign('localhost/KariCoach/thanks');
+  })
 
 
 
-
-
+  // function revealOnScroll() {
+  //   var scrolled = $window.scrollTop();
+  //   $(".revealOnScroll:not(.animated)").each(function () {
+  //     var $this     = $(this),
+  //         offsetTop = $this.offset().top;
+  //
+  //     if (scrolled + win_height_padded > offsetTop) {
+  //       if ($this.data('timeout')) {
+  //         window.setTimeout(function(){
+  //           $this.addClass('animated ' + $this.data('animation'));
+  //         }, parseInt($this.data('timeout'),10));
+  //       } else {
+  //         $this.addClass('animated ' + $this.data('animation'));
+  //       }
+  //     }
+  //   });
 
   //Slide-in animation
     function debounce(func, wait = 20, immediate = true) {
@@ -35,7 +52,7 @@
         timeout = setTimeout(later, wait);
         if (callNow) func.apply(context, args);
       };
-    };
+    }
 
 
     $(window).scroll(function() {
@@ -47,7 +64,7 @@
         $('.slide-in1').addClass('active1');
       } else if (wS < (hT + (hH * 2) - wH)) {
         $('.slide-in1').removeClass('active1');
-      };
+      }
 
       var hT2 = $('.slide-in2').offset().top,
         hH2 = $('.slide-in2').outerHeight() / 3,
@@ -57,7 +74,7 @@
         $('.slide-in2').addClass('active2');
       } else if (wS2 < (hT2 + (hH2 * 2) - wH2)) {
         $('.slide-in2').removeClass('active2');
-      };
+      }
 
     });
 
@@ -88,7 +105,7 @@
 
           // Check if the viewport is set, else we gonna set it if we can.
           if (!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {
-            $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))
+            $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'));
           }
 
           // Replace image with new SVG
