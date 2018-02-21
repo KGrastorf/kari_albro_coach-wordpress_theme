@@ -35,10 +35,10 @@
   <div class="parallax-3"></div>
   <div class="start-5">
     <div class="life-container">
-      <p class="cta"><a href="http://localhost/KariCoach/life">Self-Love<br /> Coaching</a></p>
+      <p class="cta"><a href="https://karialbro.com/life">Self-Love<br /> Coaching</a></p>
     </div>
     <div class="coach-container">
-      <p class="cta"><a href="http://localhost/KariCoach/coaches">For<br /> Coaches</a></p>
+      <p class="cta"><a href="https://karialbro.com/coaches">For<br /> Coaches</a></p>
     </div>
   </div>
 

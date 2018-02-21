@@ -14,17 +14,15 @@ get_header() ?>
       <p class="work-paragraph">I am deeply committed to my personal growth, health, living life, loving full out and from this place I come to you deeply committed to you and your transformation. </p>
   </div>
   <div class="work-space-middle"></div>
-  <ul class="work-list">
-    <li>If you are 100% committed to yourself and willing to take action to build the life you want
-    </li>
-    <li>You want to shake shit up: in your life and in the world
-    </li>
-    <li>You can laugh </li>
-    <li>You are ready to work with me</li>
-  </ul>
+  <div class="work-list">
+    <p>&nbsp;&#8226;If you are 100% committed to yourself and willing to take action to build the life you want</p>
+    <p>&nbsp;&#8226;You want to shake shit up: in your life and in the world</p>
+    <p>&nbsp;&#8226;You can laugh</p>
+    <p>&nbsp;&#8226;You are ready to work with me</p>
+  </div>
   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kari-about.png" alt="" class="work-pic-kari">
   <div class="work-space-bottom"></div>
-  <button class="well-cta work btn" ><a href="http://localhost/KariCoach/questionaire">Start the conversation.</a></button  >
+  <button class="well-cta work btn" ><a href="https://karialbro.com/questionaire">Start the conversation.</a></button  >
 </div>
 <div class="parallax-3"></div>
 

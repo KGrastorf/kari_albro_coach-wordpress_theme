@@ -60,7 +60,7 @@ get_header() ?>
 <div class="parallax-3"></div>
 <div class="start-3">
   <p class="if">It’s your time. <br />Are you ready to achieve unstoppable success and get the results you want? <br />What are you waiting for? <br />When will be the perfect time?<br /> NOW! <br />TODAY!<br /> You are worth it. <br />Let your light shine.<br />      I believe in you!!!</p>
-  <button class="testimonials btn" id="imonials"><a href="http://localhost/KariCoach/testimonials" class="test-start">Hear what my clients have to say.</a></button>
+  <button class="testimonials btn" id="imonials"><a href="https://karialbro.com/testimonials" class="test-start">Hear what my clients have to say.</a></button>
   <div class="testimonials-space">
 
   </div>
@@ -79,7 +79,7 @@ get_header() ?>
     <p class="if-3">We are on this journey together. Together we determine what’s important to you and why. Figure out what is getting in your way and how to eliminate it. We’ll figure out the best way for you to get started and get shit done. I will challenge you
       to look at yourself and your life differently so you will begin to find alignment with your dream life. You will become the fearless unstoppable person you’ve always wanted to be.
     </p>
-    <button class="if-3-button btn" type="button" name="button" ><a href="http://localhost/KariCoach/work">Want to learn more about the process?</a></button>
+    <button class="if-3-button btn" type="button" name="button" ><a href="https://karialbro.com/work-with-me">Want to learn more about the process?</a></button>
   </div>
 
 </div>
@@ -88,10 +88,10 @@ get_header() ?>
 <div class="parallax-3"></div>
 <div class="start-5">
   <div class="life-container">
-    <p class="cta"><a href="http://localhost/KariCoach/life">Self-Love<br /> Coaching</a></p>
+    <p class="cta"><a href="https://karialbro.com/life">Self-Love<br /> Coaching</a></p>
   </div>
   <div class="coach-container">
-    <p class="cta"><a href="http://localhost/KariCoach/coaches">For<br /> Coaches</a></p>
+    <p class="cta"><a href="https://karialbro.com/coaches">For<br /> Coaches</a></p>
   </div>
 </div>
 <div class="parallax-3"></div>
@@ -100,7 +100,7 @@ get_header() ?>
     <h1 class="if-3a">Fearless and Honest</h1>
     <p class="if-3b">I am a no bones around kind of person. I will say what needs to be said from a loving safe place. I truly listen to you and you will be heard with an open heart and I care for you unconditionally. I am fiercely committed to you. I will challenge
       you to look at yourself and your life differently. My coaching comes from a place of honesty and depth.</p>
-      <button class="if-3d btn" type="button" name="button" href="about.html"><a href="http://localhost/KariCoach/about" />Learn more about Kari</a></button>
+      <button class="if-3d btn" type="button" name="button" href="about.html"><a href="https://karialbro.com/about" />Learn more about Kari</a></button>
     <blockquote class="if-3c">"The first and most important person you must believe in is yourself." <em> -Toni Sorenson</em></blockquote>
   </div>
   <div class="column-2a">
@@ -111,10 +111,13 @@ get_header() ?>
 <div class="parallax-3"></div>
 <div class="social-box">
 
-  <h1 class="social">Social</h1>
+  <h1 class="social spacer-box1">Social</h1>
 
   <div class="card sc-1 view overlay hm-stylish-strong" style="width: 20rem;" >
-    <img class="card-img-top" src="<?php echo $pic_1['url']; ?>" alt="Card image cap">
+    <?php
+      if( !empty($pic_1) ) : ?>
+      <img class="card-img-top" src="<?php echo $pic_1['url']; ?>" alt="<?php echo $pic_1['alt']; ?>">
+    <?php endif; ?>
     <div class="mask">
       <p class="share">Share</p>
       <a href="<?php echo $site_url_1; ?>" class="fb-a" target="_blank">
@@ -145,7 +148,10 @@ get_header() ?>
   </div>
 
     <div class="card sc-2 view overlay hm-stylish-strong" style="width: 20rem;" >
-      <img class="card-img-top" src="<?php echo $pic_2['url']; ?>" alt="Card image cap">
+      <?php
+        if( !empty($pic_2) ) : ?>
+        <img class="card-img-top" src="<?php echo $pic_2['url']; ?>" alt="<?php echo $pic_2['alt']; ?>">
+      <?php endif; ?>
       <div class="mask">
         <p class="share">Share</p>
         <a href="<?php echo $site_url_2; ?>" class="fb-a" target="_blank">
@@ -176,7 +182,10 @@ get_header() ?>
     </div>
 
     <div class="card sc-3 view overlay hm-stylish-strong" style="width: 20rem;" >
-      <img class="card-img-top" src="<?php echo $pic_3['url']; ?>" alt="Card image cap">
+      <?php
+        if( !empty($pic_3) ) : ?>
+        <img class="card-img-top" src="<?php echo $pic_3['url']; ?>" alt="<?php echo $pic_3['alt']; ?>">
+      <?php endif; ?>
       <div class="mask">
         <p class="share">Share</p>
         <a href="<?php echo $site_url_3; ?>" class="fb-a" target="_blank">
@@ -206,10 +215,18 @@ get_header() ?>
       </div>
     </div>
 
+  <!-- <div class="spacer-box1">Social</div> -->
   <div class="spacer-box2"></div>
+  <div class="spacer-box3"></div>
+  <div class="spacer-box4"></div>
+  <div class="spacer-box5"></div>
+  <div class="spacer-box6"></div>
 
   <div class="card sc-4 view overlay hm-stylish-strong" style="width: 20rem;" >
-    <img class="card-img-top" src="<?php echo $pic_4['url']; ?>" alt="Card image cap">
+    <?php
+      if( !empty($pic_4) ) : ?>
+      <img class="card-img-top" src="<?php echo $pic_4['url']; ?>" alt="<?php echo $pic_4['alt']; ?>">
+    <?php endif; ?>
     <div class="mask">
       <p class="share">Share</p>
       <a href="<?php echo $site_url_4; ?>" class="fb-a" target="_blank">
@@ -240,7 +257,10 @@ get_header() ?>
   </div>
 
   <div class="card sc-5 view overlay hm-stylish-strong" style="width: 20rem;" >
-    <img class="card-img-top" src="<?php echo $pic_5['url']; ?>" alt="Card image cap">
+    <?php
+      if( !empty($pic_5) ) : ?>
+      <img class="card-img-top" src="<?php echo $pic_5['url']; ?>" alt="<?php echo $pic_5['alt']; ?>">
+    <?php endif; ?>
     <div class="mask">
       <p class="share">Share</p>
       <a href="<?php echo $site_url_5; ?>" class="fb-a" target="_blank">
@@ -271,7 +291,10 @@ get_header() ?>
   </div>
 
   <div class="card sc-6 view overlay hm-stylish-strong" style="width: 20rem;" >
-    <img class="card-img-top" src="<?php echo $pic_6['url'] ; ?>" alt="Card image cap">
+    <?php
+      if( !empty($pic_6) ) : ?>
+      <img class="card-img-top" src="<?php echo $pic_6['url']; ?>" alt="<?php echo $pic_6['alt']; ?>">
+    <?php endif; ?>
     <div class="mask">
       <p class="share">Share</p>
       <a href="<?php echo $site_url_6; ?>" class="fb-a" target="_blank">
