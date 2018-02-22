@@ -16,7 +16,7 @@ $link_5_url = get_field('link_5_url');
 
 get_header();
  ?>
-<style>#page > nav {display:none}</style>
+<style>nav {display:none !important}</style>
 <div class="hero w3-container w3-center w3-animate-opacity">
 
     <!-- Landing Page with no Header -->
@@ -29,7 +29,7 @@ get_header();
     <h1 class="link-5"><a href="<?php echo $link_5_url; ?>" class="home-links bckd-img4" id="bckd-img4"><?php echo $link_5_title; ?></a></h1>
   </div>
 </div>
-<!-- 
+<!--
 <div class="home-cta">
 <button type="button" name="button" class="front-cta">Subscribe</button>
 </div> -->

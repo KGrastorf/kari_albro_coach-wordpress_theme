@@ -368,6 +368,7 @@ html {
   box-sizing: border-box !important;
 	margin: 0 !important;
 	background-color: #f1efe6;
+	overflow-x: hidden;
 }
 
 *, *:before, *:after {
@@ -402,7 +403,7 @@ body {
 
 /*Home Page*/
 #hero {
-  background-image: url("http://localhost/KariCoach/wp-content/themes/karialbrocoach/images/Feetblur2FocusInt.jpg");
+  background-image: url("./images/Feetblur2FocusInt.jpg");
   background-size: cover;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -494,7 +495,7 @@ body {
 }
 
 .home-links  {
-  text-decoration: none;
+  text-decoration: none !important;
   color: white;
   font-family: 'Sacramento', cursive;
   font-size: 3.5vw;
@@ -1994,6 +1995,12 @@ body > div.hero.w3-container.w3-center.w3-animate-opacity > ui-view > div > div:
   position: relative;
 }
 
+body > nav  {
+	font-family: "Karma", serif !important;
+	font-size: 1.2em;
+
+}
+
 
 .quest {
   display: grid;
@@ -2650,6 +2657,73 @@ img.card-img-top {
   object-fit: cover;
   top: 0;
   height: 20vh;
+}
+
+.social-link-f {
+	position: fixed;
+	left: 0;
+	top: 45vh;
+	width: 50px;
+	height: 50px;
+	-webkit-transition: all .2s ease-in-out;
+  -webkit-transform: rotate3d(1,1,1,0);
+  -ms-transition: all .2s ease-in-out;
+  -ms-transform: rotate3d(1,1,1,0);
+  -moz-transition: all .2s ease-in-out;
+  -moz-transform: rotate3d(1,1,1,0);
+  transition: all .2s ease-in-out;
+  transform: rotate3d(1,1,1,0);
+}
+
+.social-link-i {
+	position: fixed;
+	left: 0;
+	top: calc(45vh + 50px);
+	width: 50px;
+	height: 50px;
+	-webkit-transition: all .2s ease-in-out;
+  -webkit-transform: rotate3d(1,1,1,0);
+  -ms-transition: all .2s ease-in-out;
+  -ms-transform: rotate3d(1,1,1,0);
+  -moz-transition: all .2s ease-in-out;
+  -moz-transform: rotate3d(1,1,1,0);
+  transition: all .2s ease-in-out;
+  transform: rotate3d(1,1,1,0);
+}
+
+
+.social-link-f:hover {
+	position: fixed;
+	left: 0;
+	top: 45vh;
+	width: 50px;
+	height: 50px;
+	filter:invert(100%);
+	-webkit-transition: all .2s ease-in-out;
+  -webkit-transform: rotate3d(1,2,.5, 360deg);
+  -ms-transition: all .2s ease-in-out;
+  -ms-transform: rotate3d(1,2,.5, 360deg);
+  -moz-transition: all .2s ease-in-out;
+  -moz-transform: rotate3d(1,2,.5, 360deg);
+  transition: all .2s ease-in-out;
+  transform: rotate3d(1,2,.5, 360deg);
+}
+
+.social-link-i:hover {
+	position: fixed;
+	left: 0;
+	top: calc(45vh + 50px);
+	width: 50px;
+	height: 50px;
+	filter:invert(100%);
+	-webkit-transition: all .2s ease-in-out;
+  -webkit-transform: rotate3d(1,2,.5, 360deg);
+  -ms-transition: all .2s ease-in-out;
+  -ms-transform: rotate3d(1,2,.5, 360deg);
+  -moz-transition: all .2s ease-in-out;
+  -moz-transform: rotate3d(1,2,.5, 360deg);
+  transition: all .2s ease-in-out;
+  transform: rotate3d(1,2,.5, 360deg);
 }
 
 
@@ -3859,7 +3933,6 @@ textarea#comment {
     line-height: 1px;
     margin: 0;
     padding: 0;
-      -webkit-text-stroke: 1.0px #000000;
   }
 
   .home-links-nav  {
@@ -3882,6 +3955,8 @@ textarea#comment {
 button.navbar-toggler {
   margin-right: 5px;
 }
+
+
 
   .footer {
     font-family: 'Sacramento', cursive;
@@ -5078,6 +5153,43 @@ button.navbar-toggler {
 					  /* padding: 0 0 3vh 0; */
 					}
 
+					.legal {
+						display: grid;
+						grid-template-columns: 10% 35% 10% 35% 10%;
+						grid-template-rows: 20% 60% 20%;
+						padding-top: 12px;
+						text-align: center;
+						font-size: .5em;
+					}
+
+					.copy {
+						grid-column: 2/3;
+						grid-row: 2/3;
+					}
+
+					.rights {
+						grid-column: 4/5;
+						grid-row: 2/3;
+					}
+
+					.flower1{
+					  background:
+					    /* top, transparent red, faked with gradient */
+					    linear-gradient(
+					      rgba(64, 64, 64, 0.55),
+					      rgba(64, 64, 64, 0.55)
+					    ),
+					    /* bottom, image */
+					    url('./images/roadmobile.png');
+					  background-position: center;
+					  background-size: auto;
+					  /*filter: opacity(.5);*/
+						animation: zoomin 120s infinite;
+
+					}
+
+
+
 }
 
 @media only screen and (max-width: 500px){
@@ -5185,7 +5297,7 @@ button.navbar-toggler {
 
 
       .home-links {
-        text-decoration: none;
+        text-decoration: none !important;
         color: white;
         font-family: 'Sacramento', cursive;
         font-size: 7vw;
@@ -6375,5 +6487,41 @@ button.navbar-toggler {
 								  margin: 0 auto;
 								  /* padding: 0 0 3vh 0; */
 								}
+
+								.legal {
+									display: grid;
+									grid-template-columns: 10% 35% 10% 35% 10%;
+									grid-template-rows: 20% 60% 20%;
+									padding-top: 12px;
+									text-align: center;
+									font-size: .5em;
+								}
+
+								.copy {
+									grid-column: 2/3;
+									grid-row: 2/3;
+								}
+
+								.rights {
+									grid-column: 4/5;
+									grid-row: 2/3;
+								}
+
+								.flower1{
+								  background:
+								    /* top, transparent grey, faked with gradient */
+								    linear-gradient(
+								      rgba(64, 64, 64, 0.55),
+								      rgba(64, 64, 64, 0.55)
+								    ),
+								    /* bottom, image */
+								    url('./images/roadmobile.png');
+								  background-position: center;
+								  background-size: auto;
+								  /*filter: opacity(.5);*/
+									animation: zoomin 120s infinite;
+
+								}
+
 
 }

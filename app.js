@@ -8,15 +8,20 @@
   // document.getElementById("time").innerHTML = date;
 
 //Fade In Animation
+$(document).ready(function(){
+
+
   TweenMax.from(".title", 2, {
     opacity: 0,
     scale: 0,
     ease: Power0.easeOut
   });
 
+});
+
   $('#ss-submit').click(function() {
     window.location.assign('localhost/KariCoach/thanks');
-  })
+  });
 
 
 

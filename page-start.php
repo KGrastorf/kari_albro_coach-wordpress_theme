@@ -40,7 +40,6 @@ $pic_5 = get_field('pic_5');
 $pic_6 = get_field('pic_6');
 
 get_header() ?>
-
 <div class="parallax-3"></div>
 <div class="banner-1">
   <h1 class="imagine title">Imagine...</h1>
@@ -84,8 +83,11 @@ get_header() ?>
 
 </div>
 
+<a href="https://www.facebook.com/karialbrocoaching/" target="_blank"><img class="social-link-f" src="<?php bloginfo('stylesheet_directory'); ?>/images/f-link.png" /></a>
 
+<a href="https://www.instagram.com/karialbrocoaching/" target="_blank"><img class="social-link-i" src="<?php bloginfo('stylesheet_directory'); ?>/images/i-link.jpg" /></a>
 <div class="parallax-3"></div>
+
 <div class="start-5">
   <div class="life-container">
     <p class="cta"><a href="https://karialbro.com/life">Self-Love<br /> Coaching</a></p>
