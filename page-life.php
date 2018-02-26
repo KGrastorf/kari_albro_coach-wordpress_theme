@@ -37,12 +37,8 @@ get_header() ?>
   <div class="points">
     <p>&nbsp;&#8226;Uncover what's been stopping you, slowing you down or keeping you from fully loving everypart of yourself.</p>
     <p>&nbsp;&#8226;We are going to figure out what's important...Develop a powerful vision of how transforming your relationship to self will improve all other relationships in your life. Together we will build a strong understanding of who you are, what you stand for, what's important to you and why.</p>
-    <!-- <li>We are going to figure out what’s important……</li><br/>
-    <li> You’re believing something that isn’t true and it’s getting in the way. We will identify what your limiting beliefs are and ultimately change what you think is possible.</li><br/>
-    <li> Find the best way for you to start putting things into motion……</li><br/> -->
     <p>&nbsp;&#8226;Discover what is getting in your way and how to eliminate it. There are a million ways to do something, so do it in the way that resonates with you. We’ll figure out what’s the best way for you to get started.</p>
     <p>&nbsp;&#8226;Get Crystal Clear on a step-by-step plan to fall deeply in love with You and to live your best life when out work is done.</p>
-    <!-- <li>There are a million ways to do something, so do it in the way that resonates with you.</li><br/> -->
   </div>
   </div>
   <section class="third-p">
@@ -60,7 +56,7 @@ get_header() ?>
   <div class="well-space-top"></div>
   <!-- <h1 class="well-cta-text">Want to find out more?</h1> -->
   <div class="well-space-middle"></div>
-  <button class="well-cta-coach btn"><a  href="https://karialbro.com/work-with-me">Start the conversation.</a></button>
+  <a class="well-cta-coach btn"  href="https://karialbro.com/work-with-me"><button class="" style="text-transform: uppercase;">Start the conversation</button></a>
   <div class="well-space-bottom"></div>
 </div>
 

@@ -22,7 +22,7 @@ get_header() ?>
   </div>
   <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kari-about.png" alt="" class="work-pic-kari">
   <div class="work-space-bottom"></div>
-  <button class="well-cta work btn" ><a href="https://karialbro.com/questionaire">Start the conversation.</a></button  >
+  <a class="well-cta work btn" href="https://karialbro.com/questionaire"><button style="text-transform: uppercase;">Start the conversation</button  ></a>
 </div>
 <div class="parallax-3"></div>
 

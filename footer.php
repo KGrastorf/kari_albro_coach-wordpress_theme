@@ -30,6 +30,7 @@
 </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/app.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/nav.js"></script>
 

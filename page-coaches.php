@@ -37,7 +37,7 @@ get_header() ?>
   <p>&nbsp;&#8226;Uncover what's been stopping you, slowing you down or keeping you from being the unstoppable and fearless Coach of your dreams.</p>
   <p>&nbsp;&#8226;Develop a powerful vision for how you would like to use your gifts to be in service to your clients and how that can impact the quality of your life and others</p>
   <p>&nbsp;&#8226;Challenge and change the way you think…..You’re believing something that isn’t true and it’s getting in the way. We will identify what your limiting beliefs are and ultimately change what you think is possible. Find the best way for you to start putting things into motion……There are a million ways to do something, so do it in the way that resonates with you. We’ll figure out what’s the best way for you to get started and get shit done! </p>
-  <p>&nbsp;&#8226;Get Crystal Clear on a step-by-step plan to begin taking action on cultivating the work and life of your dreams</p>.
+  <p>&nbsp;&#8226;Get Crystal Clear on a step-by-step plan to begin taking action on cultivating the work and life of your dreams</p>
 
 </div>
 <p class="program-curriculum">What's Included</p>
@@ -47,9 +47,9 @@ get_header() ?>
 <!-- <br /> -->
 <div>
 
-  <p>&nbsp;&#8226;12- 1 hr. Sessions We will meet bi-weekly<br /></br/>
-  <p>&nbsp;&#8226;1- 1 hr. Session clearing what’s not serving you with the use of essential oils</p>
-  <p>&nbsp;&#8226;1- 2hr. Session on learning to create clients verses finding clients</p>
+  <p>&nbsp;&#8226;12 - 1 hr. Sessions We will meet bi-weekly<br /></br/>
+  <p>&nbsp;&#8226;1 - 1 hr. Session clearing what’s not serving you with the use of essential oils</p>
+  <p>&nbsp;&#8226;1 - 2hr. Session on learning to create clients verses finding clients</p>
 <p>&nbsp;&#8226;I will give additional support  through instant messenger
 There will be practices and meditations you will be doing as well as reading.</p>
 <p>&nbsp;&#8226; 1 year of unlimited  One-on-One Business Coaching "Creating magic with your business" coaching toward one goal for one full year. During each session, we will discuss your progress and determine what you need to do which includes homework with each session.</p>
@@ -84,7 +84,7 @@ There will be practices and meditations you will be doing as well as reading.</p
   <div class="well-space-top"></div>
   <!-- <h1 class="well-cta-text">Want to find out more?</h1> -->
   <div class="well-space-middle"></div>
-  <button class="well-cta-coach btn"><a  href="https://karialbro.com/work-with-me">Start the conversation.</a></button>
+  <a class="well-cta-coach btn" href="https://karialbro.com/work-with-me"><button style="text-transform: uppercase;">Start the conversation</button></a>
   <div class="well-space-bottom"></div>
 </div>
 

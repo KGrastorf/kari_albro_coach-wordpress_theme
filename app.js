@@ -1,3 +1,8 @@
+$(document).ready(function() {
+  document.getElementsByTagName("html")[0].style.visibility = "visible";
+});
+
+
 //Go to top of page onload
   $(document).ready(function() {
     $(this).scrollTop(0);
@@ -22,6 +27,9 @@ $(document).ready(function(){
   $('#ss-submit').click(function() {
     window.location.assign('localhost/KariCoach/thanks');
   });
+
+
+
 
 
 
@@ -54,7 +62,7 @@ $(document).ready(function(){
         };
         var callNow = immediate && !timeout;
         clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
+        timeout = setTimeout((function(){this.setTimePassed()} , 3000));
         if (callNow) func.apply(context, args);
       };
     }
