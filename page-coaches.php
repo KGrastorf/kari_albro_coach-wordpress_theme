@@ -1,5 +1,34 @@
 <?php
 /* Template Name: Coaches */
+
+$coaches_image = get_field('coaches_image');
+$title_coaches = get_field('title_coaches');
+$coaches_intro_1 = get_field('coaches_intro_1');
+$coaches_intro_2 = get_field('coaches_intro_2');
+$coaches_intro_3 = get_field('coaches_intro_3');
+$coaches_intro_4 = get_field('coaches_intro_4');
+$coaches_intro_5 = get_field('coaches_intro_5');
+
+$program_title = get_field('program_title');
+$point__1 = get_field('point__1');
+$point__2 = get_field('point__2');
+$point__3 = get_field('point__3');
+$point__4 = get_field('point__4');
+
+$coaches_curriculm = get_field('coaches_curriculm');
+$cur_1 = get_field('cur_1');
+$cur_2 = get_field('cur_2');
+$cur_3 = get_field('cur_3');
+$cur_4 = get_field('cur_4');
+$cur_5 = get_field('cur_5');
+$included = get_field('included');
+
+$congruency_title = get_field('congruency_title');
+$congruency_paragraph_1 = get_field('congruency_paragraph_1');
+$congruency_paragraph_2 = get_field('congruency_paragraph_2');
+$congruency_paragraph_3 = get_field('congruency_paragraph_3');
+$congruency_paragraph_4 = get_field('congruency_paragraph_4');
+
 get_header() ?>
 
 <div class="parallax-3"></div>
@@ -15,52 +44,52 @@ get_header() ?>
 
 <div class="coach-grid-4">
   <div class="coaches-space-top"></div>
-  <h1 class="coach-header">Are you getting in your way?</h1>
+  <h1 class="coach-header"><?php echo $title_coaches; ?></h1>
   <div class="coaches-space-middle"></div>
   <div class="first-p">
-    <p>What’s preventing you from moving forward, achieving the dreams you desire? Living the life you want, the life you are meant to live?</p>
-  <p>You feel in your bones, your heart you are meant to be of service to others but wtf something, life, shit I can’t do this, no one will pay me for my services, fear of success/failure/not good enough/rejection, fear of being seen. These excuses are holding me back...</p>
-    <p>You’ve learned all these amazing tools but still get stuck.</p>
-    <p>Let me tell you right here right now you are meant for this. You are fricken amazing. You are on the right journey. The perfect journey for you! Everything you have experienced in your life has prepared you for this moment, this day- everything you do and experience today is preparing you for tomorrow your future.</p>
-    <p>I am fiercely committed to you!</p>
+    <p><?php echo $coaches_intro_1; ?></p>
+  <p><?php echo $coaches_intro_2; ?></p>
+    <p><?php echo $coaches_intro_3; ?></p>
+    <p><?php echo $coaches_intro_4; ?></p>
+    <p><?php echo $coaches_intro_5; ?></p>
   </div>
   <div class="drown">
-    <img class="drown-pic" src="<?php bloginfo('stylesheet_directory'); ?>/images/lantern.png" alt="">
+
+    <?php
+      if( !empty($coaches_image) ) : ?>
+      <img  class="drown-pic" src="<?php echo $coaches_image['url']; ?>" alt="<?php echo $coaches_image['alt']; ?>">
+    <?php endif; ?>
   </div>
   <div class="second-p2">
-    <p class="program-title">Get out of your way...Create the career you love 6 month program.</p>
+    <p class="program-title"><?php echo $program_title; ?></p>
 
 <br/>
 <!-- <img class="title-icon2" src="<?php bloginfo('stylesheet_directory'); ?>/images/Kari Circles Logo 2.png" alt=""> -->
 <div class="points">
 
-  <p>&nbsp;&#8226;Uncover what's been stopping you, slowing you down or keeping you from being the unstoppable and fearless Coach of your dreams.</p>
-  <p>&nbsp;&#8226;Develop a powerful vision for how you would like to use your gifts to be in service to your clients and how that can impact the quality of your life and others</p>
-  <p>&nbsp;&#8226;Challenge and change the way you think…..You’re believing something that isn’t true and it’s getting in the way. We will identify what your limiting beliefs are and ultimately change what you think is possible. Find the best way for you to start putting things into motion……There are a million ways to do something, so do it in the way that resonates with you. We’ll figure out what’s the best way for you to get started and get shit done! </p>
-  <p>&nbsp;&#8226;Get Crystal Clear on a step-by-step plan to begin taking action on cultivating the work and life of your dreams</p>
+  <p>&nbsp;&#8226;<?php echo $point__1; ?></p>
+  <p>&nbsp;&#8226;<?php echo $point__2; ?></p>
+  <p><p>&nbsp;&#8226;<?php echo $point__3; ?></p></p>
+  <p>&nbsp;&#8226;<?php echo $point__4; ?></p>
 
 </div>
-<p class="program-curriculum">What's Included</p>
+<p class="program-curriculum"><?php echo $coaches_curriculm; ?></p>
 <section class="program">
 
 
-<!-- <br /> -->
+
 <div>
 
-  <p>&nbsp;&#8226;12 - 1 hr. Sessions We will meet bi-weekly<br /></br/>
-  <p>&nbsp;&#8226;1 - 1 hr. Session clearing what’s not serving you with the use of essential oils</p>
-  <p>&nbsp;&#8226;1 - 2hr. Session on learning to create clients verses finding clients</p>
-<p>&nbsp;&#8226;I will give additional support  through instant messenger
-There will be practices and meditations you will be doing as well as reading.</p>
-<p>&nbsp;&#8226; 1 year of unlimited  One-on-One Business Coaching "Creating magic with your business" coaching toward one goal for one full year. During each session, we will discuss your progress and determine what you need to do which includes homework with each session.</p>
+  <p>&nbsp;&#8226;<?php echo $cur_1; ?></p>
+  <p>&nbsp;&#8226;<?php echo $cur_2; ?></p>
+  <p>&nbsp;&#8226;<?php echo $cur_3; ?></p>
+<p>&nbsp;&#8226;<?php echo $cur_4; ?></p>
+<p>&nbsp;&#8226;<?php echo $cur_5; ?> </p>
 </div>
-<p>Your investment is $3500.00 with 6 mth payments of $583.00&nbsp;ea.  Receive a  $500.00 discount with payment&nbsp;in&nbsp;full&nbsp;of&nbsp;$3000.00
+<p><?php echo $included; ?>
 </p>
 </section>
 
-<!-- <div class="hand">
-    <img class="hand-pic" src="<?php bloginfo('stylesheet_directory'); ?>/images/bee.png" alt="">
-  </div> -->
 </div>
   <section class="third-p">
 
@@ -68,12 +97,12 @@ There will be practices and meditations you will be doing as well as reading.</p
 
 
 
-    <p class="program-title">Build congruency:</p><br/>
+    <p class="program-title"><?php echo $congruency_title; ?></p><br/>
 <div class="congruency">
-  <p>You are going to start doing what you say you’re going to do and start honoring what you say is important.</p>
-    <p>You are going to get clarity (get a crystal clear vision for you dreams).  Hope, renewed energy, become empowered (master of your mindset). Tap deeper into your intuition  (inner-wise self) to guide you.  Believe in yourself.</p>
-    <p>I believe in you!</p>
-  <p>You don’t need coaching. You want MY coaching because you want to create things more powerfully, thoughtfully, efficiently and quickly.</p>
+  <p><?php echo $congruency_paragraph_1; ?></p>
+    <p><?php echo $congruency_paragraph_2; ?></p>
+    <p><?php echo $congruency_paragraph_3; ?></p>
+  <p><?php echo $congruency_paragraph_4; ?></p>
 </div>
     </section>
   <div class="coaches-space-bottom"></div>
@@ -82,7 +111,6 @@ There will be practices and meditations you will be doing as well as reading.</p
 
 <div class="well-button">
   <div class="well-space-top"></div>
-  <!-- <h1 class="well-cta-text">Want to find out more?</h1> -->
   <div class="well-space-middle"></div>
   <a class="well-cta-coach btn" href="https://karialbro.com/work-with-me"><button style="text-transform: uppercase;">Start the conversation</button></a>
   <div class="well-space-bottom"></div>

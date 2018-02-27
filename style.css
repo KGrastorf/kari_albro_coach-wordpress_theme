@@ -508,6 +508,22 @@ body {
     /* z-index: 100; */
 }
 
+.home-logo {
+	position: absolute;
+	bottom: 0;
+	left: -20px;
+	max-width: 25vw;
+	height: auto;
+}
+
+.home-logo-2 {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	max-width: 15vw;
+	height: auto;
+}
+
 .home-links  {
   text-decoration: none !important;
   color: white;
@@ -1055,7 +1071,7 @@ img.flower {
 
 .program-curriculum {
 	grid-column: 4/5;
-	grid-row: 2/3;
+	grid-row: 1/2;
 	font-size: 1.5vw;
 	font-weight: Bold;
 	text-align: center;
@@ -5364,7 +5380,13 @@ button.navbar-toggler {
 						color: white;
 					}
 
-
+					.home-logo {
+						position: absolute;
+						bottom: 0;
+						left: -20px;
+						max-width: 50vw;
+						height: auto;
+					}
 
 }
 
@@ -6727,6 +6749,14 @@ button.navbar-toggler {
 									font-size: 4vw;
 									background-color: #a9216b;
 									color: white;
+								}
+
+								.home-logo {
+									position: absolute;
+									bottom: 0;
+									left: -20px;
+									max-width: 50vw;
+									height: auto;
 								}
 
 }

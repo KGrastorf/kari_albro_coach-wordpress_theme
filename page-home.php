@@ -13,6 +13,8 @@ $link_4_title = get_field('link_4_title');
 $link_4_url = get_field('link_4_url');
 $link_5_title = get_field('link_5_title');
 $link_5_url = get_field('link_5_url');
+$logo = get_field('logo');
+$logo2 = get_field('logo2');
 
 get_header();
  ?>
@@ -27,6 +29,14 @@ get_header();
     <h1 class="link-4"><a href="<?php echo $link_4_url; ?>" class="home-links bckd-img5" id="bckd-img7"><?php echo $link_4_title; ?></a></h1>
     <h1 class="link-5"><a href="<?php echo $link_5_url; ?>" class="home-links bckd-img4" id="bckd-img4"><?php echo $link_5_title; ?></a></h1>
   </div>
+  <?php
+    if( !empty($logo) ) : ?>
+    <img class="home-logo" src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>">
+  <?php endif; ?>
+  <!-- <?php
+    if( !empty($logo2) ) : ?>
+    <img class="home-logo-2" src="<?php echo $logo2['url']; ?>" alt="<?php echo $logo2['alt']; ?>">
+  <?php endif; ?> -->
 <!-- </div> -->
 
 <!-- <div class="home-cta">
