@@ -30,26 +30,6 @@ $(document).ready(function(){
 
 
 
-
-
-
-  // function revealOnScroll() {
-  //   var scrolled = $window.scrollTop();
-  //   $(".revealOnScroll:not(.animated)").each(function () {
-  //     var $this     = $(this),
-  //         offsetTop = $this.offset().top;
-  //
-  //     if (scrolled + win_height_padded > offsetTop) {
-  //       if ($this.data('timeout')) {
-  //         window.setTimeout(function(){
-  //           $this.addClass('animated ' + $this.data('animation'));
-  //         }, parseInt($this.data('timeout'),10));
-  //       } else {
-  //         $this.addClass('animated ' + $this.data('animation'));
-  //       }
-  //     }
-  //   });
-
   //Slide-in animation
     function debounce(func, wait = 20, immediate = true) {
       var timeout;
@@ -87,6 +67,36 @@ $(document).ready(function(){
         $('.slide-in2').addClass('active2');
       } else if (wS2 < (hT2 + (hH2 * 2) - wH2)) {
         $('.slide-in2').removeClass('active2');
+      }
+
+      var hT3 = $('.slide-in3').offset().top,
+        hH3 = $('.slide-in3').outerHeight() / 3,
+        wH3 = $(window).height(),
+        wS3 = $(this).scrollTop();
+      if (wS3 > (hT3 + hH3 - wH3)) {
+        $('.slide-in3').addClass('active3');
+      } else if (wS3 < (hT3 + (hH3 * 3) - wH3)) {
+        $('.slide-in3').removeClass('active3');
+      }
+
+      var hT4 = $('.slide-in4').offset().top,
+        hH4 = $('.slide-in4').outerHeight() / 3,
+        wH4 = $(window).height(),
+        wS4 = $(this).scrollTop();
+      if (wS4 > (hT4 + hH4 - wH4)) {
+        $('.slide-in4').addClass('active4');
+      } else if (wS4 < (hT4 + (hH4 * 4) - wH4)) {
+        $('.slide-in4').removeClass('active4');
+      }
+
+      var hT5 = $('.slide-in5').offset().top,
+        hH5 = $('.slide-in5').outerHeight() / 3,
+        wH5 = $(window).height(),
+        wS5 = $(this).scrollTop();
+      if (wS5 > (hT5 + hH5 - wH5)) {
+        $('.slide-in5').addClass('active5');
+      } else if (wS5 < (hT5 + (hH5 * 5) - wH5)) {
+        $('.slide-in5').removeClass('active5');
       }
 
     });

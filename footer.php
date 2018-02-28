@@ -25,6 +25,7 @@
   <div class="legal">
     <p class="copy">&copy;2018 Kari Albro Coaching</p>
     <p class="rights">All Rights Reserved</p>
+    <a class="kevin" href="https://kevingrastorf.com" target="_blank">Built by Kevin Grastorf Web Developer</a>
   </div>
 
 </footer>

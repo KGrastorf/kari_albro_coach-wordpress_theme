@@ -34,7 +34,10 @@ get_header() ?>
     <p><?php echo $paragraph_5; ?></p>
   </div>
   <div class="luscious-pic title">
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/Kari Eyes Open Cropped.png" alt="" class="eyes-open">
+    <?php
+      if( !empty($about_picture) ) : ?>
+      <img src="<?php echo $about_picture['url']; ?>" alt="<?php echo $about_picture['alt']; ?>" class="eyes-open">
+    <?php endif; ?>
   </div>
   <div class="about-space-5"></div>
 

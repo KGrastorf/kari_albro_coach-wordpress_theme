@@ -57,7 +57,7 @@ get_header() ?>
         <blockquote>
           "<?php echo $testimonial_2; ?>"
         </blockquote>
-        <cite><?php echo $name_1; ?></cite>
+        <cite><?php echo $name_2; ?></cite>
 
       </div>
       <div class="test-column-4">
@@ -87,7 +87,7 @@ get_header() ?>
           "<?php echo $testimonial_3; ?>"
 
         </blockquote>
-        <cite><?php echo $name_1; ?></cite>
+        <cite><?php echo $name_3; ?></cite>
       </div>
     </div>
   </div>
@@ -99,10 +99,10 @@ get_header() ?>
     <div class="grid-3">
       <div class="test-column-3">
         <blockquote>
-          "<?php echo $testimonial_3; ?>"
+          "<?php echo $testimonial_4; ?>"
 
         </blockquote>
-        <cite><?php echo $name_1; ?></cite>
+        <cite><?php echo $name_4; ?></cite>
 
       </div>
       <div class="test-column-4">

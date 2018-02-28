@@ -66,12 +66,12 @@ get_header() ?>
 </div>
 <div class="parallax-3"></div>
 <div class="parallax">
-  <p class="unstoppable">Unstoppable Life!</p>
+  <p class="unstoppable slide-in2 align-right2">Unstoppable Life!</p>
 </div>
 <div class="parallax-3"></div>
 <div class="grid-1">
   <div class="column-1">
-    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/bullmand5.png" alt="" class="somebody slide-in1 align-right1">
+    <img src="<?php bloginfo('stylesheet_directory'); ?>/images/Bull & Girl.png" alt="" class="somebody slide-in1 align-right1">
   </div>
   <div class="column-2">
 

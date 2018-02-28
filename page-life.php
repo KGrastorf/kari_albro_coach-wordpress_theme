@@ -1,5 +1,24 @@
 <?php
 /* Template Name: Life */
+
+$self_love_image_1 = get_field('self_love_image_1');
+$self_love_image_2 = get_field('self_love_image_2');
+$title_self_love = get_field('title_self_love');
+$self_love_intro_1 = get_field('self_love_intro_1');
+$self_love_intro_2 = get_field('self_love_intro_2');
+$self_love_intro_3 = get_field('self_love_intro_3');
+$self_love_intro_4 = get_field('self_love_intro_4');
+$program_title = get_field('program_title');
+$point_1 = get_field('point_1');
+$point_2 = get_field('point_2');
+$point_3 = get_field('point_3');
+$point_4 = get_field('point_4');
+$congruency_title = get_field('congruency_title');
+$congruency_paragraph_1 = get_field('congruency_paragraph_1');
+$congruency_paragraph_2 = get_field('congruency_paragraph_2');
+$congruency_paragraph_3 = get_field('congruency_paragraph_3');
+$congruency_paragraph_4 = get_field('congruency_paragraph_4');
+
 get_header() ?>
 
 <div class="parallax-3"></div>
@@ -16,38 +35,45 @@ get_header() ?>
 
 <div class="coach-grid-4">
   <div class="coaches-space-top"></div>
-  <h1 class="coach-header">Are you getting in your way?</h1>
+  <h1 class="coach-header"><?php echo $title_self_love; ?></h1>
   <div class="coaches-space-middle"></div>
   <div class="first-p">
-    <p>What’s preventing you from moving forward, achieving the dreams you desire? Living the life you want, the life you are meant to live?</p>
-  <p>You feel in your bones, your heart you are meant to live a more richer, fuller, luscious life but wtf something, life, mind chatter of "Shit I can’t do this!", "I am not good enough.", "What if I fail?", "What if I succeed?". These excuses are
-    holding me back.</p>
-    <p>Are you seen as successful, but you know you’re neither happy nor fulfilled? Let me tell you right here right now you are meant to live a Luscious life. You are fricken amazing. You are on the right journey. The perfect journey for you! Everything
-    you have experienced in your life has prepared you for this moment, this day- everything you do and experience today (now) is preparing you for tomorrow your future. It’s time to course correct and find a new path. I am fiercely committed to you!</p>
-    <p>Coaching happens virtually or over the phone</p>
+    <p><?php echo $self_love_intro_1; ?></p>
+  <p><?php echo $self_love_intro_2; ?></p>
+    <p><?php echo $self_love_intro_3; ?></p>
+    <p><?php echo $self_love_intro_4 ;?></p>
     </br/>
   </div>
   <div class="drown">
-    <img class="drown-pic" src="<?php bloginfo('stylesheet_directory'); ?>/images/hand.png" alt="">
+    <?php
+      if( !empty($self_love_image_1) ) : ?>
+      <img  class="drown-pic" src="<?php echo $self_love_image_1['url']; ?>" alt="<?php echo $self_love_image_1['alt']; ?>">
+    <?php endif; ?>
+    <?php
+      if( !empty($self_love_image_2) ) : ?>
+      <img  class="somebody4 slide-in1 align-right1" src="<?php echo $self_love_image_2['url']; ?>" alt="<?php echo $self_love_image_2['alt']; ?>">
+    <?php endif; ?>
   </div>
   <div class="second-p">
-
-<img class="title-icon" src="<?php bloginfo('stylesheet_directory'); ?>/images/Kari Circles Logo.png" alt="">
-  <p class="program-title"> <strong>The fall in love with YOU 90 day program:</strong><br/></p>
+    <?php
+      if( !empty($self_love_image_2) ) : ?>
+      <img  class="title-icon" src="<?php echo $self_love_image_2['url']; ?>" alt="<?php echo $self_love_image_2['alt']; ?>">
+    <?php endif; ?>
+  <p class="program-title"> <strong><?php echo $program_title; ?></strong><br/></p>
   <div class="points">
-    <p>&nbsp;&#8226;Uncover what's been stopping you, slowing you down or keeping you from fully loving everypart of yourself.</p>
-    <p>&nbsp;&#8226;We are going to figure out what's important...Develop a powerful vision of how transforming your relationship to self will improve all other relationships in your life. Together we will build a strong understanding of who you are, what you stand for, what's important to you and why.</p>
-    <p>&nbsp;&#8226;Discover what is getting in your way and how to eliminate it. There are a million ways to do something, so do it in the way that resonates with you. We’ll figure out what’s the best way for you to get started.</p>
-    <p>&nbsp;&#8226;Get Crystal Clear on a step-by-step plan to fall deeply in love with You and to live your best life when out work is done.</p>
+    <p>&nbsp;&#8226;<?php echo $point_1; ?></p>
+    <p>&nbsp;&#8226;<?php echo $point_2; ?></p>
+    <p>&nbsp;&#8226;<?php echo $point_3 ; ?></p>
+    <p>&nbsp;&#8226;<?php echo $point_4; ?></p>
   </div>
   </div>
   <section class="third-p">
-    <p class="program-title">Build congruency:</p><br/>
+    <p class="program-title"><?php echo $congruency_title; ?></p><br/>
 <div class="congruency">
-  <p>You are going to start doing what you say you’re going to do and start honoring what you say is important.</p>
-  <p>You are going to get clarity (get a crystal clear vision for you dreams).  Hope, renewed energy, become empowered (master of your mindset). Tap deeper into your intuition  (inner-wise self) to guide you.  Believe in yourself.</p>
-  <p>I believe in you!</p>
-  <p>You don’t need coaching. You want MY coaching because you want to create things more powerfully, thoughtfully, efficiently and quickly.</p>
+  <p><?php echo $congruency_paragraph_1; ?></p>
+  <p><?php echo $congruency_paragraph_2; ?>Y</p>
+  <p><?php echo $congruency_paragraph_3; ?></p>
+  <p><?php echo $congruency_paragraph_4; ?></p>
   </div>
     </section>
   <div class="coaches-space-bottom"></div>

@@ -20,7 +20,7 @@ get_header() ?>
     <p>&nbsp;&#8226;You can laugh</p>
     <p>&nbsp;&#8226;You are ready to work with me</p>
   </div>
-  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kari-about.png" alt="" class="work-pic-kari">
+  <img src="<?php bloginfo('stylesheet_directory'); ?>/images/kari-about-gold.png" alt="" class="work-pic-kari">
   <div class="work-space-bottom"></div>
   <a class="well-cta work btn" href="https://karialbro.com/questionaire"><button style="text-transform: uppercase;">Start the conversation</button  ></a>
 </div>

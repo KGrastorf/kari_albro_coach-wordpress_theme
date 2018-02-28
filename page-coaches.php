@@ -2,6 +2,7 @@
 /* Template Name: Coaches */
 
 $coaches_image = get_field('coaches_image');
+$coaches_image2 = get_field('coaches_image2');
 $title_coaches = get_field('title_coaches');
 $coaches_intro_1 = get_field('coaches_intro_1');
 $coaches_intro_2 = get_field('coaches_intro_2');
@@ -21,6 +22,7 @@ $cur_2 = get_field('cur_2');
 $cur_3 = get_field('cur_3');
 $cur_4 = get_field('cur_4');
 $cur_5 = get_field('cur_5');
+$cur_6 = get_field('cur_6');
 $included = get_field('included');
 
 $congruency_title = get_field('congruency_title');
@@ -59,12 +61,17 @@ get_header() ?>
       if( !empty($coaches_image) ) : ?>
       <img  class="drown-pic" src="<?php echo $coaches_image['url']; ?>" alt="<?php echo $coaches_image['alt']; ?>">
     <?php endif; ?>
+
+    <?php
+      if( !empty($coaches_image2) ) : ?>
+      <img  class="somebody3 slide-in1 align-right1" src="<?php echo $coaches_image2['url']; ?>" alt="<?php echo $coaches_image2['alt']; ?>">
+    <?php endif; ?>
+
   </div>
   <div class="second-p2">
     <p class="program-title"><?php echo $program_title; ?></p>
 
 <br/>
-<!-- <img class="title-icon2" src="<?php bloginfo('stylesheet_directory'); ?>/images/Kari Circles Logo 2.png" alt=""> -->
 <div class="points">
 
   <p>&nbsp;&#8226;<?php echo $point__1; ?></p>
@@ -85,6 +92,7 @@ get_header() ?>
   <p>&nbsp;&#8226;<?php echo $cur_3; ?></p>
 <p>&nbsp;&#8226;<?php echo $cur_4; ?></p>
 <p>&nbsp;&#8226;<?php echo $cur_5; ?> </p>
+<p>&nbsp;&#8226;<?php echo $cur_6; ?> </p>
 </div>
 <p><?php echo $included; ?>
 </p>
