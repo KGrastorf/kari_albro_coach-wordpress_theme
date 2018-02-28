@@ -1,0 +1,21 @@
+{
+  "minify": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/json",
+    "test/unicode",
+    "test/css/animations",
+    "test/css/backgroundsize",
+    "test/css/borderimage",
+    "test/css/borderradius",
+    "test/css/boxshadow",
+    "test/css/calc",
+    "test/css/cssgrid",
+    "test/css/flexbox",
+    "test/css/flexboxlegacy",
+    "test/css/mask",
+    "test/css/mediaqueries"
+  ]
+}

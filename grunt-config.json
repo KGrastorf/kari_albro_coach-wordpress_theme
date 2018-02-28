@@ -1,0 +1,27 @@
+{
+  "crawl": false,
+  "customTests": [],
+  "dest": "/PATH/TO/modernizr-output.js",
+  "tests": [
+    "json",
+    "unicode",
+    "cssanimations",
+    "backgroundsize",
+    "borderimage",
+    "borderradius",
+    "boxshadow",
+    "csscalc",
+    [
+      "cssgrid",
+      "cssgridlegacy"
+    ],
+    "flexbox",
+    "flexboxlegacy",
+    "cssmask",
+    "mediaqueries"
+  ],
+  "options": [
+    "setClasses"
+  ],
+  "uglify": true
+}
