@@ -20,10 +20,10 @@ get_header() ?>
 <div class="google-form">
 
 
-<img src="<?php bloginfo('stylesheet_directory'); ?>/images/sparklerocks.png" alt="" class="rocks">
+<img class="rocks" src="<?php bloginfo('stylesheet_directory'); ?>/images/sparklerocks.png" alt="">
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScRCdqhVCuJFFOfdQhT0F8GO5t-cAKWryiJgfRA-7gQn9RUvA/viewform?embedded=true" width="800" height="1750" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
-<div class="parallax-3"></div>
+
 
 <?php get_footer() ?>

@@ -25,6 +25,7 @@
   <div class="legal">
     <p class="copy">&copy;2018 Kari Albro Coaching</p>
     <p class="rights">All Rights Reserved</p>
+    <?php echo do_shortcode("[addthis tool=addthis_horizontal_follow_toolbox]"); ?>
     <a class="kevin" href="https://kevingrastorf.com" target="_blank">Built by Kevin Grastorf Web Developer</a>
   </div>
 
@@ -34,7 +35,7 @@
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/app.js"></script>
 <script src="<?php bloginfo('stylesheet_directory'); ?>/nav.js"></script>
-<script src="modernizr-custom.js"></script>
+
 
 </body>
 

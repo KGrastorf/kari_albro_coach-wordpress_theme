@@ -6,6 +6,9 @@ $paragraph_1 = get_field('paragraph_1');
 $paragraph_2 = get_field('paragraph_2');
 $paragraph_3 = get_field('paragraph_3');
 $paragraph_4 = get_field('paragraph_4');
+$paragraph_4a = get_field('paragraph_4a');
+$paragraph_4b = get_field('paragraph_4b');
+$paragraph_4c = get_field('paragraph_4c');
 $paragraph_5 = get_field('paragraph_5');
 $about_picture = get_field('about_picture');
 
@@ -30,7 +33,7 @@ get_header() ?>
     <p><?php echo $paragraph_1; ?></p>
     <p><?php echo $paragraph_2; ?></p>
     <p><?php echo $paragraph_3; ?></p>
-    <p><?php echo $paragraph_4; ?></p>
+    <p><?php echo $paragraph_4; ?> <a href="<?php echo $paragraph_4a; ?>"><?php echo $paragraph_4b; ?></a> <?php echo $paragraph_4c; ?></p>
     <p><?php echo $paragraph_5; ?></p>
   </div>
   <div class="luscious-pic title">
@@ -43,6 +46,13 @@ get_header() ?>
 
 </div>
 </div>
+<div class="well-button">
+  <div class="well-space-top"></div>
+  <div class="well-space-middle"></div>
+  <a class="well-cta-coach btn" href="https://karialbro.com/work-with-me"><button style="text-transform: uppercase;">Start the conversation</button></a>
+  <div class="well-space-bottom"></div>
+</div>
+
 <div class="parallax-3"></div>
 
 <?php get_footer() ?>

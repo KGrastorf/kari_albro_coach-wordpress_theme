@@ -47,18 +47,18 @@ get_header() ?>
 <div class="parallax-3"></div>
 <div class="start-1">
   <p class="if">...if we all had someone in our lives that believed in us, who truly listened and cared deeply about seeing us achieve our desires and dreams. Someone who held us accountable, who challenged us to reach new heights and gave support. How frickin’ cool
-    would that be…</p>
+    would that be?...</p>
 </div>
 <div class="parallax-3"></div>
 <div class="strong">
   <div class="strong-top"></div>
-  <p class="if-2">...If you dream of something more, but you have no idea how to do it, I can help. This is where I come in as your coach. I am fiercely committed to seeing you become the best version of yourself the beautiful person you are: Fearless and Unstoppable.
+  <p class="if-2">...If you dream of something more, but you have no idea how to do it, I can help. I am fiercely committed to seeing you become the best version of yourself - the beautiful person you are: Fearless and Unstoppable.
     For you and for others who you touch in your life...</p>
   <div class="strong-bottom"></div>
 </div>
 <div class="parallax-3"></div>
 <div class="start-3">
-  <p class="if">It’s your time. <br />Are you ready to achieve unstoppable success and get the results you want? <br />What are you waiting for? <br />When will be the perfect time?<br /> NOW! <br />TODAY!<br /> You are worth it. <br />Let your light shine.<br />      I believe in you!!!</p>
+  <p class="if">It’s your time. <br />Are you ready to achieve unstoppable success and get the results you want? <br />What are you waiting for? <br />When will be the perfect time?<br /> NOW! <br /><a href="https://karialbro.com/questionaire/">TODAY!</a><br /> You are worth it. <br />Let your light shine.<br />      I believe in you!!!</p>
   <a class="testimonials btn" href="https://karialbro.com/testimonials" class="test-start"><button id="imonials">Hear what my clients have to say.</button></a>
   <div class="testimonials-space">
 
@@ -75,17 +75,15 @@ get_header() ?>
   </div>
   <div class="column-2">
 
-    <p class="if-3">We are on this journey together. Together we determine what’s important to you and why. Figure out what is getting in your way and how to eliminate it. We’ll figure out the best way for you to get started and get shit done. I will challenge you
-      to look at yourself and your life differently so you will begin to find alignment with your dream life. You will become the fearless unstoppable person you’ve always wanted to be.
+    <p class="if-3">Let's start this journey together. Together, we will determine what’s important to you and why. We'll figure out what is getting in your way, how to eliminate it, and the best way for you to get started on the path to live your best life.<br/>
+
+    </br/> I will challenge you to look at yourself and your life differently so you will begin to find alignment with your dream life. You will become the fearless, unstoppable person, you’ve always wanted to be.
     </p>
     <a class="if-3-button btn" href="https://karialbro.com/work-with-me"><button  >Want to learn more about the process?</button></a>
   </div>
 
 </div>
 
-<a href="https://www.facebook.com/karialbrocoaching/" target="_blank"><img class="social-link-f" src="<?php bloginfo('stylesheet_directory'); ?>/images/f-link.png" /></a>
-
-<a href="https://www.instagram.com/karialbrocoaching/" target="_blank"><img class="social-link-i" src="<?php bloginfo('stylesheet_directory'); ?>/images/i-link.jpg" /></a>
 <div class="parallax-3"></div>
 
 <div class="start-5">
@@ -100,8 +98,7 @@ get_header() ?>
 <div class="grid-1a">
   <div class="column-1a">
     <h1 class="if-3a">Fearless and Honest</h1>
-    <p class="if-3b">I am a no bones around kind of person. I will say what needs to be said from a loving safe place. I truly listen to you and you will be heard with an open heart and I care for you unconditionally. I am fiercely committed to you. I will challenge
-      you to look at yourself and your life differently. My coaching comes from a place of honesty and depth.</p>
+    <p class="if-3b">I am a no bones around kind of person. I will say what needs to be said from a loving, safe place. I truly listen - you will be heard with an open heart and I will care for you unconditionally. I will fiercely commit myself to you. I will challenge you to look at yourself and your life differently. My coaching comes from a place of honesty and depth.</p>
       <a class="if-3d btn" href="https://karialbro.com/about" /><button  href="about.html">Learn more about Kari</button></a>
     <blockquote class="if-3c">"The first and most important person you must believe in is yourself." <em> -Toni Sorenson</em></blockquote>
   </div>

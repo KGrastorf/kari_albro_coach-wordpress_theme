@@ -114,8 +114,13 @@ get_header() ?>
 
     </div>
   </div>
+  <div class="about-cta">
+  <div class="spacer-test-1"></div>
+  <a class="about-button btn" href="https://karialbro.com/work-with-me"><button>START THE CONVERSATION</button></a>
+  <div class="spacer-test-2"></div>
+  </div>
+
   <div class="parallax-3"></div>
-</div>
 </div>
 </div>
 
