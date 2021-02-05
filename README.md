@@ -1,3 +1,5 @@
+THis is a Custom Wordpress THeme for the now defunct Kari Albro Coaching website. It was built on underscores.me with each page built by myself utilizing jQuary, JavsScript and CSS with Advanced Custom Fields to allow the client to change text and photos in the dashboard herself. 
+
 [![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
 _s
